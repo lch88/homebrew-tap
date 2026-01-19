@@ -3,7 +3,7 @@ cask "logbro" do
   name "logbro"
   desc "Log viewer for stdin logs"
   homepage "https://github.com/lch88/logbro"
-  version "0.0.4"
+  version "0.0.5"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,26 +15,24 @@ cask "logbro" do
     on_intel do
       url "https://github.com/lch88/logbro/releases/download/v#{version}/logbro_Darwin_x86_64.tar.gz",
         verified: "github.com/lch88/logbro/",
-        using: :homebrew_curl,
         cookies: {
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.0.4",
+          "X-Version: 0.0.5",
         ]
-      sha256 "b9301e3fde685681479b0605ebafec0faff65c4d9015ba2123634ca2eae60bec"
+      sha256 "c8b127b2adf92849f907dab7b34f0b7cf03cb731ef244893410b26e646a78212"
     end
     on_arm do
       url "https://github.com/lch88/logbro/releases/download/v#{version}/logbro_Darwin_arm64.tar.gz",
         verified: "github.com/lch88/logbro/",
-        using: :homebrew_curl,
         cookies: {
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.0.4",
+          "X-Version: 0.0.5",
         ]
-      sha256 "9281ec176c23c34823a39dbd7445601a808200778aaeb3fba16d9885091558b1"
+      sha256 "a42c31a81b55e92396720c1ef1397e98d817a34484ff27b3c49883b25adb65ac"
     end
   end
 
@@ -42,26 +40,24 @@ cask "logbro" do
     on_intel do
       url "https://github.com/lch88/logbro/releases/download/v#{version}/logbro_Linux_x86_64.tar.gz",
         verified: "github.com/lch88/logbro/",
-        using: :homebrew_curl,
         cookies: {
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.0.4",
+          "X-Version: 0.0.5",
         ]
-      sha256 "cae329bdf69e67cd15eba6a10669c57269a2f233556138346eb194b4f4274605"
+      sha256 "95f0e0a3ba13a607979025a1822849e40d19548e20be83ed291599077f60d933"
     end
     on_arm do
       url "https://github.com/lch88/logbro/releases/download/v#{version}/logbro_Linux_arm64.tar.gz",
         verified: "github.com/lch88/logbro/",
-        using: :homebrew_curl,
         cookies: {
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.0.4",
+          "X-Version: 0.0.5",
         ]
-      sha256 "962a0f43f2ea22cf36d5cdeeb798a43e87101ee0e7e2a99b7b9ca2d5068d863a"
+      sha256 "76a991b456988e59aaf0613503eda0ab0a5a0a16f9278311e2ad50645fd88940"
     end
   end
 
