@@ -3,7 +3,7 @@ cask "logbro" do
   name "logbro"
   desc "Log viewer for stdin logs"
   homepage "https://github.com/lch88/logbro"
-  version "0.2.6"
+  version "0.2.7"
 
   livecheck do
     skip "Auto-generated on release."
@@ -19,9 +19,9 @@ cask "logbro" do
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.2.6",
+          "X-Version: 0.2.7",
         ]
-      sha256 "f8156d67bfe8debaa3f0aa5243fdd00bb0960babbac6a369878f5302ec72ee1d"
+      sha256 "63f2d7a00abc185c06d93962b99e223069e1c8c0ce149ffc8ada3a2007e81ea6"
     end
     on_arm do
       url "https://github.com/lch88/logbro/releases/download/v#{version}/logbro_Darwin_arm64.tar.gz",
@@ -30,9 +30,9 @@ cask "logbro" do
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.2.6",
+          "X-Version: 0.2.7",
         ]
-      sha256 "6bffa9abac17d0387d64b5f6db138eacd607cdc6255b3af761784aa7291112a9"
+      sha256 "30876519a6a58f55dc81bcaf08a41bfc2b9dbfeaa960c79d5a44fb1699e8cc8c"
     end
   end
 
@@ -44,9 +44,9 @@ cask "logbro" do
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.2.6",
+          "X-Version: 0.2.7",
         ]
-      sha256 "2d81a41681605f475a3bf3dbaa440374dc067bcca0fa860e0c91ded62ab4f688"
+      sha256 "b060516bb05f72cc26288e279adc28a73cb33bae1ce967dd447ffc6b13b40562"
     end
     on_arm do
       url "https://github.com/lch88/logbro/releases/download/v#{version}/logbro_Linux_arm64.tar.gz",
@@ -55,9 +55,9 @@ cask "logbro" do
           "license" => "accept-backup",
         },
         header: [
-          "X-Version: 0.2.6",
+          "X-Version: 0.2.7",
         ]
-      sha256 "6df89ed283d57577a639d0793fbf50f5e8986764faa857a99c2a4aeb56a15e40"
+      sha256 "d6daab136de58b66b6283c36f409c00d86f16df02e18234090f7c6a2d89958a4"
     end
   end
 
